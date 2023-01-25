@@ -1,0 +1,32 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.generate__btn{
+    padding:12px 18px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #227a5d;
+    cursor: pointer;
+}
+.box__wrapper{
+ display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+    
+}
+.box__wrapper span{
+    padding: 10px 6px;
+    display: block;
+    text-transform: uppercase;
+}
+.box__wrapper> div{
+    margin: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
